@@ -1,5 +1,8 @@
 class Cat (val name: String, var age: Int, var weight: Int) {
 
+    fun eat() {
+        weight++
+    }
     fun walk() {
         weight--
     }
